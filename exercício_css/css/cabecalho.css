@@ -1,0 +1,31 @@
+.cabecalho {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #CCCC;
+	padding: 20px;
+}
+
+.cabecalho h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.cabecalho li {
+	display: inline;
+	margin: 8px;
+	font-size: 20px;
+	font-weight: bold;
+	list-style-type: none;
+
+}
+
+.cabecalho a {
+	text-decoration: none;
+	color: black;
+}
+
+.cabecalho a:hover {
+	text-decoration: underline;
+	color: lightgray;
+}
