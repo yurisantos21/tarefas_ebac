@@ -1,0 +1,23 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #c3c3c3;
+}
+
+h1 {
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+form {
+	padding: 0 2em;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.form-control {
+	min-width: 30em;
+	margin-bottom: 2em;
+}
+
